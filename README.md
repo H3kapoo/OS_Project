@@ -4,3 +4,8 @@
 3.Run ```./shell```
 ## Note
 In order for the ```client``` command to work,you first need to run the server with the command ```./server``` .The default port is 5021.
+
+## Some Pictures
+![Imgur Image](http://i.imgur.com/klweaVl.jpg)
+![Imgur Image](http://i.imgur.com/ydexq1b.jpg)
+![Imgur Image](http://i.imgur.com/buS9qYX.jpg)
