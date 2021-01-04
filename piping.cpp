@@ -202,7 +202,13 @@ int main(int argc, char **argv)
         //decide whether to write to file or to screen
         if (redir)
         {
-            FILE *fp = fopen(redirFile.c_str(), "w");
+            char *name = get_current_dir_name();
+            char path[512];
+
+            strcpy(path, name);
+            strcat(path, redirFile.c_str());
+
+            FILE *fp = fopen(path, "w");
 
             if (fp == NULL)
             {
